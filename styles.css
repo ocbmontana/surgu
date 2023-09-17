@@ -138,8 +138,12 @@ b1 {
     font-size: 20px;
 }
 
-.form {
-    display: flex;
+.form1 {
     margin-top: 10px;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.form2 {
+    grid-column: 1/3;
 }
