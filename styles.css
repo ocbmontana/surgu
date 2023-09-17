@@ -1,0 +1,142 @@
+h1 {
+    margin-bottom: 32.5px;
+}
+h2,
+p {
+    margin: 5px;
+    padding: 0;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header_middle {
+    flex-grow: 1;
+}
+
+.header_contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.img {
+    width: 200px;
+    border-radius: 50%;
+    height: 200x;
+}
+.hr {
+    margin: 15px 0;
+    border: 3.5px solid blueviolet;
+}
+.info {
+    margin: 15px 0;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    border: 7px solid blueviolet;
+    border-radius: 25px;
+    color: white;
+
+}
+.contackt {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+}
+.into_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 5px;
+    
+}
+.into_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-top: 5px;
+}
+body {
+    background-color: hotpink;
+}
+h3 {
+    margin-inline-start: 25px;
+    font-size: 20px;
+}
+h4 {
+    margin-inline-start: 25px;
+    font-size: 20px;
+}
+b {
+    margin-right: 5px;
+    font-size: 20px;
+}
+.info1 {
+    font-size: 17px;
+}
+b1 {
+    font-size: 17px;
+    color: white;
+}
+.gang {
+    
+}
+.techno {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    border-radius: 20px;
+    border: solid blueviolet;
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white
+    
+}
+.chip {
+    font-size: 30px;
+    font-weight: 600;
+
+}
+.gang {
+    font-size: 20px;
+}
+
+.techno1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.tech {
+    margin-top: 30px;
+}
+
+.techno_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image_it {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.size {
+    font-size: 20px;
+}
